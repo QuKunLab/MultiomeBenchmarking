@@ -9,13 +9,12 @@
     │   ├── RunsciPENN.py                 
     │   ├── RunSeurat.r               
     │   ├── RuntotalVI.py                          
-    │   └── dance-main                           
-    │       └── examples                    
-    │           └── multi_modality               
-    │               └── predict_modality          
-    │                   ├── babel.py                 
-    │                   ├── cmae.py                    
-    │                   └── scmogcn.py                         
+    │   └── dance
+    │       ├── data                                   # The specific location for data preprocessed by running PrepareData.py 
+    │       ├── PrepareData.py                         # Running PrepareData.py to generate preprocessed data for BABEL/CMAE/
+    │       ├── babel.py                 
+    │       ├── cmae.py                    
+    │       └── scmogcn.py                         
     └── compare                                      
         ├── ComputePCC&CMD.ipynb                        # Compute PCC and CMD values
         └── ComputeRC&RU.ipynb                          # Determine RC and RU proteins,then compute PCC and CMD values respectively                      
