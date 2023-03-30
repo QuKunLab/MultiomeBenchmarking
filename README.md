@@ -39,7 +39,7 @@ Installation of Benchmarking may take about 7-15 minutes to install the dependen
 
 1.  Dependencies and requirements
 
-    Before you run the pipeline, please make sure that you have installed and python3, R and all the ten packages: Babel(Version 0.6a0), CMAE(Version 0.6a0), MultiVi(Version 0.6a0), LS_Lab(Version 0.6a0), scMoGCN(Version 0.6a0), Seurat(Version 0.6a0) and LIGER(Version 0.6a0)
+    Before you run the pipeline, please make sure that you have installed and python3, R and all the ten packages:BABEL(Version 1.0.0rc0), CMAE(Version 1.0.0rc0), MultiVi(Version 0.20.3), LS_Lab, scMoGCN(Version 1.0.0rc0), Seurat(Version 4.1.1) and LIGER(Version 1.0.0).
  
     The package has been tested on Linux system (CentOS) and should work in any valid python environment. 
 
