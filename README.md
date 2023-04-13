@@ -27,7 +27,7 @@ Installation of Benchmarking may take about 7-15 minutes to install the dependen
 
 1. Dependencies and requirements
 
-    Before you run the pipeline, please make sure that you have installed and python3, R and all the ten packages: totalVI(Version 1.3), scArches(Version 0.6a0), cTP-net(Version 0.6a0), Babel(Version 0.6a0), CMAE(Version 0.6a0), sciPENN(Version 0.6a0), Guanlab-dengkw(Version 0.6a0), scMoGCN(Version 0.6a0), Seurat(Version 0.6a0) and LIGER(Version 0.6a0)
+    Before you run the pipeline, please make sure that you have installed and python3, R and all the ten packages: totalVI(Version 0.17.4), scArches(Version 0.5.4), cTP-net(Version 0.2.4), BABEL(Version 1.0.0rc0), CMAE(Version 1.0.0rc0), sciPENN(Version 0.9.6), Guanlab-dengkw, scMoGCN(Version 1.0.0rc0), Seurat(Version 4.1.1) and LIGER(Version 4.1.1)
  
    The package has been tested on Linux system (CentOS) and should work in any valid python environment. 
 
