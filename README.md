@@ -13,13 +13,15 @@
 
  Before you run the pipeline, please make sure that you have installed and python3, R(4.1) and all the 12 packages(totalVI, scArches, cTP-net, Babel, CMAE, sciPENN, Guanlab-dengkw, scMoGCN, MultiVi, LS_Lab, Seurat and LIGER) :
 1. Before the installation of these packages, please install Miniconda to manage all needed software and dependencies. You can download Miniconda from https://conda.io/miniconda.html.
-2. Download MultiomeBenchmarking.zip from https://github.com/QuKunLab/MultiomeBenchmarking. Unzipping this package and you will see Benchmarkingenvironment.yml and Config.env.sh located in its folder.
-3. Build isolated environment for MultiomeBenchmarking: 
-`conda env create -f Benchmarkingenvironment.yml`
-4. Activate Benchmarking environment:
-`conda activate Benchmarking`
-5. `sh Config.env.sh`
-6. Enter R and install required packages by command : `install.packages(c('vctrs','rlang','htmlwidgets'))`
+2. Download MultiomeBenchmarking.zip from https://github.com/QuKunLab/MultiomeBenchmarking. Unzipping the package and you will see RNA2ATAC_env and RNA2Protein_env, as well as the "*.yml" files located in their respective folders. Below is an example of how to build the environment:
+#### Building RNA2ATAC environment
+   1. Build isolated environment for predicting chromatin accessibility information of cells: 
+   `sh Config.env.sh`
+   2. activate python environment: 
+   `conda activate ATAC_py`
+   3. activate R environment: 
+   `conda activate ATAC_R`
+   4. Enter R and install required packages by command : `install.packages(c('vctrs','rlang','htmlwidgets'))`
 
 Installation of Benchmarking may take about 7-15 minutes to install the dependencies.
 
@@ -33,7 +35,7 @@ Installation of Benchmarking may take about 7-15 minutes to install the dependen
 
 2. Tutorial
 
-   If you want to analysis your own data, the [doc/Tutorial_protein.ipynb](https://github.com/QuKunLab/MultiomeBenchmarking/blob/main/doc/Tutorial_protein.ipynb) is an example showing how to use them to predictprotein abundance of cells.
+   If you want to analysis your own data, the [code/RNA2Protein/methods](code/RNA2Protein/methods) are example showing how to use them to predict protein abundance of cells.
   
 ### Predicting chromatin accessibility information of cells in scRNA-seq
 
@@ -45,7 +47,7 @@ Installation of Benchmarking may take about 7-15 minutes to install the dependen
 
 2. Tutorial
 
-   If you want to analysis your own data, the [doc/Tutorial_ATAC.ipynb](https://github.com/QuKunLab/MultiomeBenchmarking/blob/main/doc/Tutorial_ATAC.ipynb) is an example showing how to use them to predict chromatin accessibility information of cells.
+   If you want to analysis your own data, the [code/RNA2ATAC/methods](code/RNA2ATAC/methods) are examples showing how to use them to predict chromatin accessibility information of cells.
 
 
 __Datasets__
