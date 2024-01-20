@@ -40,7 +40,7 @@ Installation of Benchmarking may take about 7-15 minutes to install the dependen
 
 2. Tutorial
 
-   If you want to analysis your own data, the [Prediction/RNA_Protein/pipeline](code/RNA2Protein/methods) are example showing how to use them to predict protein abundance of cells.
+   If you want to analysis your own data, the [Prediction/RNA_Protein/pipeline](code/Prediction/RNA_Protein/pipeline) are example showing how to use them to predict protein abundance of cells.
   
 #### Predicting chromatin accessibility information of cells in scRNA-seq
 
@@ -52,7 +52,7 @@ Installation of Benchmarking may take about 7-15 minutes to install the dependen
 
 2. Tutorial
 
-   If you want to analysis your own data, the [Prediction/RNA_ATAC/pipeline](code/RNA2ATAC/methods) are examples showing how to use them to predict chromatin accessibility information of cells.
+   If you want to analysis your own data, the [Prediction/RNA_ATAC/pipeline](code/Prediction/RNA_ATAC/pipeline) are examples showing how to use them to predict chromatin accessibility information of cells.
 
 ### Integration
 #### Vertical integration
@@ -65,7 +65,7 @@ Installation of Benchmarking may take about 7-15 minutes to install the dependen
 
 2. Tutorial
 
-   If you want to analysis your own data, the [Integration/pipeline/Vertical](code/RNA2ATAC/methods) are examples showing how to use them to predict chromatin accessibility information of cells.
+   If you want to analysis your own data, the [Integration/pipeline/Vertical](code/Integration/pipeline/Vertical) are examples showing how to use them to predict chromatin accessibility information of cells.
 
 #### Horizontal integration
 
@@ -77,7 +77,7 @@ Installation of Benchmarking may take about 7-15 minutes to install the dependen
 
 2. Tutorial
 
-   If you want to analysis your own data, the [Integration/pipeline/Horizontal](code/RNA2ATAC/methods) are examples showing how to use them to predict chromatin accessibility information of cells.
+   If you want to analysis your own data, the [Integration/pipeline/Horizontal](code/Integration/pipeline/Horizontal) are examples showing how to use them to predict chromatin accessibility information of cells.
 
 #### Mosaic integration
 
@@ -89,7 +89,7 @@ Installation of Benchmarking may take about 7-15 minutes to install the dependen
 
 2. Tutorial
 
-   If you want to analysis your own data, the [Integration/pipeline/Mosaic](code/RNA2ATAC/methods) are examples showing how to use them to predict chromatin accessibility information of cells.
+   If you want to analysis your own data, the [Integration/pipeline/Mosaic](code/Integration/pipeline/Mosaic) are examples showing how to use them to predict chromatin accessibility information of cells.
 
 __Datasets__
 
