@@ -1,5 +1,5 @@
 # Benchmarking algorithms for single-cell multi-omics prediction and integration
-![WorkFolw](./fig/pipeline.jpg)
+![WorkFolw](./fig/pipeline.png)
 
 ## Implementation description
 
