@@ -18,7 +18,7 @@
  For integration please make sure that you have installed and python3, R(4.1) and all the 18 packages(Seurat, MOJITOO, totalVI, Multigrate, SCOIT, scArches, scVAEIT, CiteFuse, DeepMAPS, scAI, MultiVI, MOFA+, scMVP, MIRA, Schema, UINMF, scMoMaT, StabMap) :
 1. Before the installation of these packages, please install Miniconda to manage all needed software and dependencies. You can download Miniconda from https://conda.io/miniconda.html.
 2. Download MultiomeBenchmarking.zip from https://github.com/QuKunLab/MultiomeBenchmarking. Unzipping the package and you will see env, in which there are Integration and Prediction folders, as well as the "*.yml" files located in their respective folders. Below is an example of how to build the environment:
-##### Building prediction environment for totalVI, scArches, LS_Lab:
+#### Building prediction environment for totalVI, scArches, LS_Lab:
    1. Build isolated environment for totalVI, scArches and LS_Lab algorithms : 
    `conda env create -f scvi.yaml`
    2. Activate python environment: 
