@@ -20,7 +20,7 @@
 2. Download MultiomeBenchmarking.zip from https://github.com/QuKunLab/MultiomeBenchmarking. Unzipping the package and you will see env, in which there are Integration and Prediction folders, as well as the "*.yml" files located in their respective folders. Below is an example of how to build the environment:
 #### Building prediction environment for totalVI, scArches, LS_Lab:
    1. Build isolated environment for totalVI, scArches and LS_Lab algorithms : 
-   `conda env create -f scvi.yaml`
+   `conda env create -f scvi.yml`
    2. Activate python environment: 
    `conda activate scvi`
 
