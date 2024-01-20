@@ -91,6 +91,9 @@ Installation of Benchmarking may take about 7-15 minutes to install the dependen
 __Datasets__
 
   All datasets used are publicly available data, for convenience datasets can be downloaded from: https://mailustceducn-my.sharepoint.com/:f:/g/personal/hyl2016_mail_ustc_edu_cn/EgYFP7tlTKBBuAhkdtrIOg4B1Eyo-_iBx1VKBWSK0r-9rA?e=gmhocx.
+
+__Tips__
+
   If you encounter difficulties downloading our code from GitHub, we recommend downloading it from Zenodo: https://zenodo.org/records/10540843
 
 <!--For citation and further information please refer to: __Li, B., Zhang, W., Guo, C. et al. Benchmarking spatial and single-cell transcriptomics integration methods for transcript distribution prediction and cell type deconvolution. Nat Methods (2022). https://doi.org/10.1038/s41592-022-01480-9__.-->
