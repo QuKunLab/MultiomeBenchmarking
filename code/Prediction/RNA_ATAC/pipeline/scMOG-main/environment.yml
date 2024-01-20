@@ -1,0 +1,33 @@
+name: scMOG2
+channels:
+  - bioconda
+  - pytorch
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.9.*
+  - numpy=1.17.*
+  - pandas=0.25.*
+  - matplotlib
+  - conda-forge::mpl-scatter-density=0.7
+  - conda-forge::adjusttext=0.7.3.*
+  - conda-forge::astropy=4.0.1.*
+  - anaconda::scipy=1.3.*
+  - anaconda:scikit-learn=0.21.3
+  - anaconda::statsmodels=0.10.*
+  - pytorch::torchvision
+  - pytorch::pytorch=2.0
+  - anaconda::cudatoolkit=11.1.*
+  - conda-forge::skorch=0.7.0
+  - pytorch::captum=0.2.0
+  - anaconda::tensorboard=2.0.0
+  - conda-forge::jupyter
+  - bioconda::anndata=0.6.22.*
+  - bioconda::scanpy=1.4.4
+  - conda-forge::multicore-tsne=0.1
+  - conda-forge::umap-learn=0.3.10
+  - conda-forge::louvain=0.6.1
+  - conda-forge::intervaltree=3.0.*
+  - conda-forge::leidenalg=0.7.0
+  - anaconda::cached-property=1.5.*
+  - bioconda::ucsc-liftover=357
