@@ -91,6 +91,8 @@ Installation of Benchmarking may take about 7-15 minutes to install the dependen
 __Datasets__
 
   All datasets used are publicly available data, for convenience datasets can be downloaded from: https://mailustceducn-my.sharepoint.com/:f:/g/personal/hyl2016_mail_ustc_edu_cn/EgYFP7tlTKBBuAhkdtrIOg4B1Eyo-_iBx1VKBWSK0r-9rA?e=gmhocx.
+  
+  If the above link is unavailable, the datasets can be downloaded from the following link using the password p8r0: https://rec.ustc.edu.cn/share/8c708130-f5c2-11ef-9e5a-bd6cbb40617b.
 
 __Tips__
 
