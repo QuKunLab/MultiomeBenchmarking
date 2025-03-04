@@ -15,7 +15,7 @@
     │       ├── data                                       ## The specific location for data preprocessed by running PrepareData.py 
     │       ├── PrepareData.py                             ## Running PrepareData.py to generate preprocessed data for BABEL/CMAE/scMoGNN pipeline 
     │       ├── babel.py                                   ## Use the command "python babel.py --outdir ../dance/ --subtask openproblems_bmmc_cite_phase2_rna --device cuda" to run BABEL algorithm.
-    │       ├── cmae.py                                    ## Use the command "python cmae.py --output_path ../dance/ --subtask openproblems_bmmc_cite_phase2_rna --device cuda" to run CAME algorithm.
+    │       ├── cmae.py                                    ## Use the command "python cmae.py --output_path ../dance/ --subtask openproblems_bmmc_cite_phase2_rna --device cuda" to run CMAE algorithm.
     │       └── scmognn.py                                 ## Use the command "python scmogcn.py --subtask openproblems_bmmc_cite_phase2_rna --device cuda" to run scMoGNN algorithm.
     ├── compare                                      
     │   ├── ComputePCC&CMD&RMSE.ipynb                  # Compute PCC, CMD, RMSE values
